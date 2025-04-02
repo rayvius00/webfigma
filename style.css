@@ -1,0 +1,408 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    font-family: "Poppins", sans-serif;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lefttop {
+    display: flex;
+    flex-direction: row;
+    color: rgb(85, 0, 255);
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    place-content: start;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    place-content: start;
+    margin-top: 600px;
+
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(85, 0, 255);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    align-items: center;
+    place-content: start;
+}
+
+.leftbottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.text,
+.icon {
+    margin-left: 20px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.searcher {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.right {
+    background-color: rgb(220, 239, 255);
+    font-family: "DM Sans", sans-serif;
+    color: rgb(38, 0, 113);
+}
+
+.box1 {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sinfo {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.box2 {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    justify-content: start;
+    align-items: center;
+    padding: 3px;
+}
+
+.cinfo {
+    margin-left: 5px;
+}
+
+.clients {
+    background-color: rgb(85, 0, 255);
+    border-radius: 50%;
+    padding: 20px;
+    height: 52px;
+    width: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.box3 {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    justify-content: start;
+    align-items: center;
+}
+
+.box4 {
+    background-color: rgb(85, 0, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ainfo {
+    color: white;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    place-content: center;
+
+}
+
+.total {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.third {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 10px;
+    padding: 20px;
+}
+
+.totaltop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.gr {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px;
+    align-items: end;
+    justify-content: center;
+}
+
+.jan {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.feb {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.mar {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 240px;
+    border-radius: 8px;
+}
+
+.apr {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.may {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.june {
+    background-color: rgb(85, 0, 255);
+    width: 40px;
+    height: 260px;
+    border-radius: 8px;
+}
+
+.july {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+
+.aug {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.sep {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+
+.sep {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.oct {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 220px;
+    border-radius: 8px;
+}
+
+.nov {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.dec {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 40px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.grnames {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.robbie img {
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.robbie {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.girl {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    gap: 5px;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 10px;
+    text-align: center;
+}
+
+.fr1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 320px;
+}
+
+.last1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.fr2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 320px;
+}
+
+.lll1,
+.lll2,
+.lll3,
+.lll4 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.lll5 {
+    display: flex;
+    flex-direction: row;
+    color: rgb(85, 0, 255);
+    justify-content: end;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 25px;
+}
+
+.fr3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 320px;
+}
+
+.bb1 {
+    background-color: rgb(85, 0, 255);
+    height: 30px;
+    width: 8px;
+    border-radius: 5px;
+}
+
+.fff2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.lll6 {
+    display: flex;
+    flex-direction: row;
+    color: rgb(85, 0, 255);
+    justify-content: end;
+    margin-top: 20px;
+}
